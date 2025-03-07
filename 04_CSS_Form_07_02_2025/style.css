@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  background-image: url("./images/Coffee.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+h1 {
+  font-family: "Covered By Your Grace", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 110px;
+  color: rgba(3, 150, 100, 0.75);
+}
+
+main {
+    position: relative;
+    min-height: 800;
+}
+
+.left, .center, .right {
+    position: absolute;
+    /* top, left, right, bottom */
+    width: 32%;
+    top: 15px;
+}
+
+.left {
+    left: 15px;
+}
+
+.center {
+  left: 34%;
+}
+
+.right {
+    right: 15px;
+}
+
+.left > div, .center > div, .right > div {
+ margin: 100px 0;
+ border-bottom: 1px solid #e4bb97;
+ padding-bottom: 60px;
+ height: 200px;
+ overflow-y: auto;
+} 
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.5;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  color: #454;
+}
+
+.link {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  
+}
